@@ -1,0 +1,225 @@
+<processVistaarPricingBPM xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+  <SFDC_Speedi_WinQuoteData>
+    <QuoteMessage>
+      <Quote>
+        <Id>E5E587BD-3A23-455F-908A-F91E0896DC4C|F8B26E1A-011F-4911-9E8F-5663578724AC</Id>
+        <QuoteNumber>UM8-00007575 r1</QuoteNumber>
+        <Revision>1</Revision>
+        <Name>Polly Test</Name>
+        <ChannelType>Distributor</ChannelType>
+        <Industry>Ele_Electric Utility/IPP/NUG</Industry>
+        <AppealStatus>PND</AppealStatus>
+        <BuyingCustomer>2244411</BuyingCustomer>
+        <CostMissingFlg>N</CostMissingFlg>
+        <EquipCostMissingFlg>N</EquipCostMissingFlg>
+        <PMComments />
+        <CompetitiveSituation>Quote has been partially ordered: test</CompetitiveSituation>
+        <PriceManager>Sales</PriceManager>
+        <Competition>OTHER COMPETITOR</Competition>
+        <Installedbase>Mixed</Installedbase>
+        <DecisionMadeOn />
+        <SalesPricingStrategy>Buy</SalesPricingStrategy>
+        <ARRAStatus>N</ARRAStatus>
+        <RFQFactoryQuote>N</RFQFactoryQuote>
+        <TsCsChangedFlg>N</TsCsChangedFlg>
+        <Requester>Mikulandra, Roger</Requester>
+        <PhoneNumber />
+        <ReceivedDateTime>06/30/2022 12:16:46 PM</ReceivedDateTime>
+        <RequestedNDC>1819.38</RequestedNDC>
+        <RequestedShipDate>06/30/2022 12:16:46</RequestedShipDate>
+        <ResponseDueby>06/30/2022 12:16:46</ResponseDueby>
+        <RequestedPNDC>1819.38</RequestedPNDC>
+        <NetAdders>0</NetAdders>
+        <EndSystem>QMS</EndSystem>
+        <SalesPriceReviewFlg>N</SalesPriceReviewFlg>
+        <CurrCode>USD</CurrCode>
+        <EmailAddressRequestor>roger.mikulandra@us.abb.com</EmailAddressRequestor>
+        <UserType>01</UserType>
+        <NEMATrade>UM8</NEMATrade>
+        <RestAPIUrl>xc-s-awqmwd11.elis.abb.com/hub/api/</RestAPIUrl>
+        <SalesOrg>USS1</SalesOrg>
+        <DistributionChannel>10</DistributionChannel>
+        <ListofQuoteLineItem>
+          <QuoteLineItem>
+            <ArrayOfQuoteLineItemItem>
+              <Product>S1</Product>
+              <CatalogNumber>THN3363</CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>83.9400</Cost>
+              <ListPrice>1072.0000</ListPrice>
+              <Qty>2</Qty>
+              <DiscMult>0.300000</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>42D8037A-082C-41FB-9156-61477BB35AD7</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>34.5600</MaterialCost>
+              <LaborCost>20.0000</LaborCost>
+              <OverheadCost>20.4400</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>No</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+            <ArrayOfQuoteLineItemItem>
+              <Product>RA</Product>
+              <CatalogNumber>TNG3 </CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>3.0600</Cost>
+              <ListPrice>154.0000</ListPrice>
+              <Qty>2</Qty>
+              <DiscMult>0.180000</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>335E94B1-CC3D-4AFF-A1AD-07B76AEBDE2C</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>2.2800</MaterialCost>
+              <LaborCost>0.2800</LaborCost>
+              <OverheadCost>0.1800</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>No</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+            <ArrayOfQuoteLineItemItem>
+              <Product>S1</Product>
+              <CatalogNumber>THN3363</CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>251.8200</Cost>
+              <ListPrice>3216.0000</ListPrice>
+              <Qty>6</Qty>
+              <DiscMult>0.303300</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>F80B04E6-8DDF-4D66-9A02-ABA64D79F9C8</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>103.6800</MaterialCost>
+              <LaborCost>60.0000</LaborCost>
+              <OverheadCost>61.3200</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>Yes</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+            <ArrayOfQuoteLineItemItem>
+              <Product>RA</Product>
+              <CatalogNumber>TNG3 </CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>9.1800</Cost>
+              <ListPrice>462.0000</ListPrice>
+              <Qty>6</Qty>
+              <DiscMult>0.180300</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>05703C2F-B72C-440D-8970-9307938EC051</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>6.8400</MaterialCost>
+              <LaborCost>0.8400</LaborCost>
+              <OverheadCost>0.5400</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>Yes</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+            <ArrayOfQuoteLineItemItem>
+              <Product>S1</Product>
+              <CatalogNumber>TH3221</CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>41.6400</Cost>
+              <ListPrice>326.0000</ListPrice>
+              <Qty>2</Qty>
+              <DiscMult>0.300000</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>DBD4618D-D7F6-4CC8-9016-767BBAFCB31F</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>21.1600</MaterialCost>
+              <LaborCost>8.0000</LaborCost>
+              <OverheadCost>8.0600</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>No</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+            <ArrayOfQuoteLineItemItem>
+              <Product>RA</Product>
+              <CatalogNumber>TGL1 </CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>1.1400</Cost>
+              <ListPrice>28.0000</ListPrice>
+              <Qty>2</Qty>
+              <DiscMult>0.180000</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>77B39BC2-E9A7-4E6D-8EA0-0FB3624598B3</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>0.5600</MaterialCost>
+              <LaborCost>0.2800</LaborCost>
+              <OverheadCost>0.1800</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>No</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+            <ArrayOfQuoteLineItemItem>
+              <Product>S1</Product>
+              <CatalogNumber>TH3221</CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>124.9200</Cost>
+              <ListPrice>978.0000</ListPrice>
+              <Qty>6</Qty>
+              <DiscMult>0.300000</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>CEA5E130-7DD2-404D-87EB-26022C808D21</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>63.4800</MaterialCost>
+              <LaborCost>24.0000</LaborCost>
+              <OverheadCost>24.1800</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>No</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+           <ArrayOfQuoteLineItemItem>
+              <Product>RA</Product>
+              <CatalogNumber>TGL1 </CatalogNumber>
+              <Complexity />
+              <RequestedShipCycle>N</RequestedShipCycle>
+              <Cost>3.4200</Cost>
+              <ListPrice>84.0000</ListPrice>
+              <Qty>6</Qty>
+              <DiscMult>0.180000</DiscMult>
+              <CostMissingFlag>N</CostMissingFlag>
+              <ProductGrp>PTC</ProductGrp>
+              <GroupNo>B91ECD63-912E-48C9-8A1A-038FC70E3FEB</GroupNo>
+              <StandardPrice>0.0000</StandardPrice>
+              <MaterialCost>1.6800</MaterialCost>
+              <LaborCost>0.8400</LaborCost>
+              <OverheadCost>0.5400</OverheadCost>
+              <PaymentTermsAdder>0</PaymentTermsAdder>
+              <IncoTermsAdder>0</IncoTermsAdder>
+              <WarrantyAdder>0</WarrantyAdder>
+              <OtherAdditionalAdder>0</OtherAdditionalAdder>
+              <IsReleased>No</IsReleased>
+            </ArrayOfQuoteLineItemItem>
+          </QuoteLineItem>
+        </ListofQuoteLineItem>
+      </Quote>
+    </QuoteMessage>
+  </SFDC_Speedi_WinQuoteData>
+</processVistaarPricingBPM>
