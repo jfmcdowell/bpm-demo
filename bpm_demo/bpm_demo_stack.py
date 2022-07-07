@@ -1,5 +1,6 @@
 from aws_cdk import Duration, Stack
 from aws_cdk import aws_apigateway as apigw
+from aws_cdk import aws_iam as iam
 from aws_cdk import aws_lambda as _lambda
 from aws_cdk import aws_logs as logs
 from aws_cdk import aws_stepfunctions as stepfunctions
@@ -111,6 +112,14 @@ class BpmDemoStack(Stack):
                 definition=definition, timeout=Duration.minutes(5)
             ),
         )
+
+        # IAM policy for Producer Lambda
+
+        event_policy = iam.PolicyStatement(
+            effect=iam.Effect.ALLOW, resources=["*"], actions=["events:PutEvents"]
+        )
+
+        event_producer_lambda.lambda_function.add_to_role_policy(event_policy)
 
         # Define API Gateway REST API resource backed by producer lambda function
 
