@@ -59,6 +59,7 @@ class BpmDemoStack(Stack):
             self,
             "Submit Price Appeal",
             lambda_function=submit_price_appeal_lambda,  # type: ignore
+            input_path="$",
             output_path="$.Payload",
         )
 
