@@ -1,5 +1,7 @@
 import datetime
 import json
+import os
+import uuid
 
 import boto3
 from aws_lambda_powertools import Logger, Tracer
@@ -11,20 +13,26 @@ tracer = Tracer()
 @logger.inject_lambda_context(log_event=True)  # type:ignore
 @tracer.capture_lambda_handler
 def lambda_handler(event, context):
-    eventbridge_client = boto3.client("events")
+    client = boto3.client("stepfunctions")
+    state_machine_arn = os.environ["STATE_MACHINE_ARN"]
+    transaction_id = str(uuid.uuid1())
     request_body = event["body"]
     if request_body is None:
         request_body = ""
-    # Structure of EventBridge Event
-    eventbridge_event = {
+    # Structure of Event
+    event = {
+        "TransctionID": transaction_id,
         "Time": datetime.datetime.now(),
         "Source": "com.mycompany.myapp",
         "Detail": request_body,
         "DetailType": "service_status",
     }
 
-    # Send event to EventBridge
-    response = eventbridge_client.put_events(Entries=[eventbridge_event])
+    # Send event to Stepfunction
+
+    response = client.start_execution(
+        stateMachineArn=state_machine_arn, name=transaction_id, input=json.dumps(event)
+    )
 
     logger.info(response)
 
