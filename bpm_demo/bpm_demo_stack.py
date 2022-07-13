@@ -64,7 +64,7 @@ class BpmDemoStack(Stack):
         )
 
         wait_step = stepfunctions.Wait(
-            self, "Wait 30 seconds", time=stepfunctions.WaitTime.duration(Duration.seconds(30))
+            self, "Wait 10 seconds", time=stepfunctions.WaitTime.duration(Duration.seconds(10))
         )
 
         status_step = sftasks.LambdaInvoke(

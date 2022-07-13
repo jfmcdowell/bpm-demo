@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     # Structure of Event
     event = {
         "TransctionID": transaction_id,
-        "Time": datetime.datetime.now(),
+        "Time": json.dumps(datetime.datetime.now(), default=str),
         "Source": "com.mycompany.myapp",
         "Detail": request_body,
         "DetailType": "service_status",
