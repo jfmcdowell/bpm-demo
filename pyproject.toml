@@ -16,6 +16,7 @@ exceptiongroup = "^1.0.0-rc.8"
 pylint = "^2.14.4"
 black = "^22.6.0"
 aws-lambda-powertools = "^1.26.3"
+cdk-nag = "^2.16.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
