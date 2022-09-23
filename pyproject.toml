@@ -11,6 +11,7 @@ aws-cdk-lib = "^2.30.0"
 constructs = "^10.1.43"
 exceptiongroup = "^1.0.0-rc.8"
 "aws-solutions-constructs.aws-lambda-stepfunctions" = "^2.10.0"
+cdk-nag = "^2.18.18"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.14.4"

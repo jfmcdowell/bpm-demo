@@ -186,6 +186,6 @@ class BpmDemoStack(Stack):
         NagSuppressions.add_stack_suppressions(
             self, [{"id": "AwsSolutions-APIG4", "reason": "Never going to implement this"}]
         )
-        NagSuppressions.add_stack_suppressions(
-            self, [{"id": "AwsSolutions-COG4", "reason": "Never going to implement this"}]
-        )
+        # NagSuppressions.add_stack_suppressions(
+        #     self, [{"id": "AwsSolutions-COG4", "reason": "Never going to implement this"}]
+        # )
